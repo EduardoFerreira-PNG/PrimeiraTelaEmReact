@@ -1,0 +1,146 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ff99d5;
+  background-image: radial-gradient(at 30% 25%, hsla(260, 75%, 75%, 1) 0px,transparent 50% ),
+    radial-gradient(at 25% 18%, hsla(244, 77%, 68%, 1) 0px, transparent 50%),
+    radial-gradient(at 35% 38%, hsla(217, 95%, 79%, 1) 0px, transparent 50%),
+    radial-gradient(at 49% 96%, hsla(260, 88%, 74%, 1) 0px, transparent 50%),
+    radial-gradient(at 26% 67%, hsla(135, 1%, 62%, 1) 0px, transparent 50%),
+    radial-gradient(at 75% 94%, hsla(36, 63%, 68%, 1) 0px, transparent 50%),
+    radial-gradient(at 99% 89%, hsla(3, 61%, 68%, 1) 0px, transparent 50%);
+}
+
+.tela__login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 370px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 4px 4px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.tela__login--cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 1rem;
+    box-shadow: 4px 4px 3px 2px rgba(0, 0, 0, 0.2);
+    
+}
+
+.login__usuario{
+   margin-top: 1.5rem;
+}
+
+.login__usuario label{
+    margin-left: 1.7rem;
+    font-weight: 500;
+    color: #AD8EEF;
+}
+
+.login__usuario input::placeholder{
+    padding: 10px;
+}
+
+.login__usuario input{
+    width: 80%;
+    height: 40px;
+    margin: 0.5rem 0px 0.5rem 1.7rem;
+    border-radius: 4px;
+    border: 1px solid #AD8EEF;
+    outline: none;
+}
+
+.botao__login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+    margin-top: 2rem;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #AD8EEF;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.botao__login:hover{
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+
+.btn__alternativo{
+    display: flex;
+    text-decoration: none;
+    color: #AD8EEF;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.btn__alternativo::before{
+    content: "";
+    display: flex;
+    align-items: center;
+    background: url(/src/Componentes/TelaDeLogin/facebook.png) no-repeat;
+    background-size: 25px;
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+.btn__alternativo:hover{
+    transform: translateY(-10px);
+    transition: 0.4s;
+}
+
+.btn__esqueceu{
+    text-decoration: none;
+    color: black;
+    margin-top: 0.5rem;
+}
+
+.btn__esqueceu:hover{
+    transform: translateY(-10px);
+    transition: 0.4s;
+}
+
+.btn__esqueceu span{
+    font-weight: bold;
+    color: #AD8EEF;
+}
+
+.cabeca img{
+    width: 250px;
+    filter: invert(100%);
+}
+
+.cabeca{
+    height: 100px;
+    margin-bottom: 1.5rem;
+}
+
+.tela__login--cadastro p span {
+    font-weight: bold;
+    color: #AD8EEF;
+    cursor: pointer;
+}
+
+footer p{
+    color: #fff;
+    margin-top: 1.5rem;
+    font-size: 20px;
+    font-weight: bold;
+}
